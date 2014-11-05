@@ -1,0 +1,25 @@
+name:          hakyll-journal
+version:       0.1.0
+synopsis:      a Hakyll module for journals/diaries
+
+description:   TODO
+
+license:       MIT
+license-file:  LICENSE.md
+copyright:     Copyright (c) 2014, Travis Cardwell and Rob Nugen
+author:        Travis Cardwell <travis.cardwell@extellisys.com>
+maintainer:    Travis Cardwell <travis.cardwell@extellisys.com>
+stability:     experimental
+homepage:      https://github.com/thunderrabbit/hakyll-journal
+bug-reports:   https://github.com/thunderrabbit/hakyll-journal/issues
+category:      Web, Hakyll
+build-type:    Simple
+cabal-version: >= 1.18
+
+library
+  hs-source-dirs:   src
+  default-language: Haskell2010
+  build-depends:    base >= 4.7
+  ghc-options:      -Wall -O2
+  exposed-modules:
+    Hakyll.Journal

@@ -17,9 +17,7 @@ A development environment can be setup as follows:
 2. `$ cd ~/projects`
 3. `$ git clone https://github.com/thunderrabbit/hakyll-journal`
 4. `$ cd hakyll-journal`
-5. `$ git checkout -b develop`
-6. `$ git branch --set-upstream develop origin/develop`
-7. `$ git pull`
-8. `$ cabal sandbox init`
-9. `$ cabal install --only-dependencies`
-10. `$ cabal build`
+5. `$ git checkout --track origin/develop`
+6. `$ cabal sandbox init`
+7. `$ cabal install --only-dependencies`
+8. `$ cabal build`
